@@ -1,0 +1,91 @@
+HELP ME PLEASE FOR ISSUES AND FIXES!
+
+
+
+PLEASE READ THESE BELOW BEFORE POSTING WITH A ISSUE, EXPECIALLY TO DIRTY SANTA ETC!!
+YOU WILL BE IGNORED IF ON THE LIST!!!
+
+
+
+===========================================================
+? How do I get into recovery ?
+============================================================
+
+pull battery and put it back in
+hold volume down and power. 
+when lg logo shows up click power and re hold it while still holding vol down.
+if you do it right in about 4 seconds or so it will boot to a menu, choose yes both times and you'll be back in twrp.
+
+===========================================================
+? Stuck in a endless boot loop to twrp ?
+============================================================
+Steps: 
+
+pull battery and put back in, hold vol down and pulg into pc
+phone will boot to fastboot
+send these commands via command prompt
+fastboot erase misc
+fastboot erase fota
+fastboot reboot
+
+still stuck? go back to fastboot as stated above
+
+fastboot erase system
+unplug
+pull battery and put it back in
+hold volume down and power. 
+when lg logo shows up click power and re hold it while still holding vol down.
+if you do it right in about 4 seconds or so it will boot to a menu, choose yes both times and you'll be back in twrp.
+restore backup or re-flash a rom again.
+
+===========================================================
+? Locked out of device after restore / dirty flash ?
+? pin # / pattern / Fingerprint wont work? ?
+============================================================
+Steps:
+
+Boot into Twrp ( if you dont know how see above steps on how to access twrp
+
+Using the TWRP file manager navigate to this location
+
+/data/system/locksettings.db 
+
+delete this file and reboot device, your pin/lock is now gone.
+===========================================================
+? Some apps wont login or work ?
+? Not safetynet apps like Pokemon Go ?
+? But google apps and things like Snapchat, Pandora, Facebook ?
+============================================================
+Steps:
+
+this may also quire the troubblesome app to be uninstalled first/and re-installed after steps completed.
+
+Download this app from the playstore to
+download the latest versions of google play services,
+Link: https://play.google.com/store/apps/d...ps.serviceinfo
+Open app and use it to force a update
+It gives you 3 options to do so
+once done reboot into recovery and clear cache and dalvik-cache
+this should resolve the issue once completed.
+===========================================================
+? Hostpot/Tether Settings Missing ?
+? Other SystemUI things gone ?
+============================================================
+Its best to do this on wifi but do it as you wish
+
+Steps:
+go to dialer
+enter ##27269# (##BRAND#)
+Hit Yes if prompted to do so,
+the phone will reboot and add the carrier branded files back
+and replace the systemui setup with the correct one!
+
+Other Codes that do the same thing essentially : ##UPDATE# ##72786# 
+These will not erase any user data, so dont be worried!
+================================================== ==============
+================================================== ========
+================================================== =
+================================
+=============
+=====
+=
