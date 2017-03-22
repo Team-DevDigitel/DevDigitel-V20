@@ -583,7 +583,7 @@ delete_recursive("/tmp");
 ui_print(" ");
 package_extract_dir("viper4arise", "/tmp/viper4arise");
 run_program("/sbin/busybox", "unzip", "/tmp/viper4arise/Viper4Arise.zip", "META-INF/com/google/android/*", "-d", "/tmp/viper4arise");
-run_program("/sbin/busybox", "sh", "/tmp/busybox/META-INF/com/google/android/update-binary", "dummy", "1", "/tmp/viper4arise/Viper4Arise");
+run_program("/sbin/busybox", "sh", "/tmp/busybox/META-INF/com/google/android/update-binary", "MAGISK", "1", "/tmp/viper4arise/Viper4Arise");
 ui_print(" ");
 delete_recursive("/tmp");
 ui_print(" ");
