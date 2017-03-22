@@ -57,7 +57,7 @@ ui_print("###########################");
 ui_print("#Installing User-Data+Apps#");
 ui_print("###########################");    
 ui_print(" ");
-package_extract_dir("META-INF/ADD-ONS/DATA/ViPER4Android", "/sdcard");
+package_extract_dir("META-INF/ADD-ONS/DATA/ViPER4Android", "/sdcard/ViPER4Android");
 ui_print(" ");
 package_extract_dir("META-INF/ADD-ONS/DATA/APP/", "/data/app"); 
 set_progress(0.300000);
